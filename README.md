@@ -4,7 +4,7 @@
 
 **Classes**: Friday, 7h10 to 10h30, at i5.
 
-**Statudent**: Alexandre Mendonça
+**Student**: Alexandre Mendonça
 
 ## Class #1
 - MAR/03: homework complete.
