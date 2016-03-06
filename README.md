@@ -6,5 +6,5 @@
 
 **Statudent**: Alexandre Mendonça
 
-Class #1
-- Homework done on March 03. 
+## Class #1
+- MAR/03: homework complete.
