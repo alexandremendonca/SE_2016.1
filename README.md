@@ -7,4 +7,5 @@
 **Student**: Alexandre Mendonça
 
 ## Class #1
+- Subject: Configuration management trough GitHub
 - MAR/05: homework complete.
