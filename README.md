@@ -7,4 +7,4 @@
 **Student**: Alexandre Mendonça
 
 ## Class #1
-- MAR/03: homework complete.
+- MAR/05: homework complete.
