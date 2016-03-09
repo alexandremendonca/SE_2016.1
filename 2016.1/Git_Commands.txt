@@ -1,3 +1,5 @@
+git init //Criar um repositório no diretório atual.
+git init --bare //Criar um repositório no diretório atual que seja disponível para outras estações na rede local.
 git status //Verificar status do repositório, checando se temos arquivos para adicionar a staging area ou comitar.
 git add <file name> //Adicionar arquivo específico para staging area.
 git add . //Adicionar todos os arquivos para staging area.
@@ -27,4 +29,9 @@ git branch -d <branch name> //Deletar branch.
 git checkout <branch name> //Retorna ambiente de trabalho para branch informado.
 git checkout -b <branch name> //Cria branch e já seta ambiente de trabalho para este branch recém criado.
 git merge <branch origin name> //Atualizar para o branch atual os ajustes realizados no branch de origem.
-
+git clone file:////<server name>/<share name>/<project name> <git share name> //Clonar projeto substituindo nome do compartilhamento para viabilizar o início do trabalho compartilhado.
+git remote //Apresenta nome do servidor remoto.
+git push <remote> master //Enviar arquivos para servidor remoto a partir do master.
+git pull <remote> master //Trazer arquivos do servidor remoto para master fazendo merge automático.
+git fetch <remote> <branch> //Trazer arquivos do servidor remoto para branch fazendo merge manual.
+ssh-keygen //Gerar chave SSH para conectar GIT com GITHUB.
