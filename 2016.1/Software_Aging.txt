@@ -1,0 +1,39 @@
+Software Aging Comments
+
+- Causas de envelhecimento de software:
+1- Expectativas sobre produtos de software tem mudado rapidamente. Hoje, todos querem acesso on-line, resposta imediata e interfaces com alta usabilidade. Portanto ao melhorar a tecnologia, softwares antigos parecem não atender mais a expectativa dos usuários.
+2- Resultado da mudança que são feitas. Mudando software para prevenir seu envelhecimento pode causar uma diferente forma de envelhecimento. Mudanças são realizadas quase sempre por pessoas que não entendem o conceito da arquitetura original faz com que a estrutura do software se degrade. Quanto mais tarde são as mudanças é mais provável introduzir novos defeitos.
+
+- Problemas de alocação de memória, não necessariamente, devem ser considerados um envelhecimento do software. Em alguns momentos, basta fazer uma limpeza no sistema de arquivos para restabelecer o desempenho esperado do software.
+
+- Os custos do envelhecimento de software:
+1- Adicionar funcionalidades acontece através da modificação do código existente que é normalmente mal entendido e mal documentado. A probabilidade de atraso e entrega do software com novos defeitos é certa. Os clientes tendem a seguir para novos produtos no mercado causando uma queda considerável na receita da empresa.
+2- Na medida que o software cresce devido a adição de novas funcionalidades e aumenta sua base de dados, problemas de desempenho (performance) começam a acontecer. Fatalmente este software será substituído por um novo software que atende as novas expectativas do cliente rodando de forma mais rápida e ocupando menos memória.
+3- Quanto mais antigo for o software, a sua manutenção vai causando a introdução de cada vez mais novos defeitos. A diminuição da credibilidade vai causar um abandono de seus clientes.
+
+- Para reduzir custos do envelhecimento de software, o foco deve estar na prevenção. Esta prevenção não deve focar na primeira vez que o software roda ou no primeiro release, mas, sim, no tempo em que o software se tornará velho.
+
+- Como atrasar o envelhecimento do software:
+1- Arquitetura proposta para suportar mais facilmente mudanças. Estimar a probabilidade de cada tipo de mudança e, então, organizar o código para confinar em classes pequenas itens com maior probabilidade de serem modificados. O único software que não precisa ser modificado é o software que ninguém utiliza. Fazer arquitetura para mudanças é fazer arquitetura para o sucesso.
+2- Os princípios e decisões voltadas para arquitetura não são geralmente registradas numa forma que seja útil para futuras manutenções. A única forma prática de registrar a informação necessária numa documentação adequada é usando notação definida formalmente.
+3- Para atingir uma arquitetura mais precisa, é importante acontecer a revisão por outros arquitetos. Para melhorar problemas causados pelo envelhecimento do software, toda arquitetura deve ser revisada e aprovada por alguém que será responsável pelo futuro do produto.
+4- O envelhecimento do software é inevitável mesmo adotando as três medidas indicadas anteriormente. 
+
+- O que fazer com um software envelhecido:
+1- Diminiur o progresso da deteriorização recriando a estrutura enquanto as mudanças são realizadas. Novos documentos devem ser criados e revisados e o código deve fica consistente com a documentação definida.
+2- Uma forma de tornar o envelhecimento do software mais lento é melhorar a qualidade da documentação. Uma documentação formal requer um exame detalhade e sistêmico do código que revela diversas formas de melhoria de desempenho.
+3- Refatorar o código através de modularização. 
+4- Seções do código muito manipuladas podem ser descartadas e substituídas por novas funções que desempenham a mesma função.
+5- Reestruturar o código quando uma grande quantidade do código ou parte importante dele se tornar fora de controle.
+
+- Planejamento para o envelhecimento do software:
+1- Um novo estilo de vida para as empresas que deveriam impor um novo padrão de estrutura e documentação voltados para se prevenir contra o envelhecimento do software.
+2- Um planejamento voltado para mudanças onde cada etapa deve ser documentada e revisada antes de de seguir para próxima, incluindo as próprias mudanças. 
+3- Se não está documentado, não deve ser feito. 
+4- Ao desenvolver um produto, já se deve planejar o próximo que o irá substituir.
+
+- Barreiras para o progresso da Engenharia de Software
+1- A crise do software lida com pensamento a curto prazo.
+2- Cada tipo de indústria trabalha sem o conhecimento do esforço das demais indústrias no que diz respeito a software. A consequência é que a roda é reinventada para cada indústria.
+3- Profissionais de cada área são normalmente alocados para construir seus próprios softwares. Por não terem educação formal em software, a tendência é que seus programas envelhecerão mais rapidamente.
+4- Pesquisadores dedicam seus esforços para atrair atenção de outros pesquisadores e não dos profissionais de TI. 

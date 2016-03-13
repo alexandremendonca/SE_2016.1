@@ -10,3 +10,7 @@
 - Subject: Configuration management trough GitHub
 - MAR/05: homework complete.
 - MAR/06: [Git Commands](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Git_Commands.txt) file created.
+
+## Class #2
+- Subject: Software Evolution
+- MAR/13: {Software Aging] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Software_Aging.txt) file created.
