@@ -1,0 +1,30 @@
+Challenges in Software Evolution Comments
+
+- A maior razão para o problema do envelhecimento de software é que a adaptação e manutenção de software é ainda subestimado no processo de desenvolvimento de software tradicional. A única maneira de superar ou evitar os efeitos negativos do envelhecimento do software é colocando a mudança no centro do processo de desenvolvimento de software.
+
+- Classificação dos desafios:
+1- Tempo: Esforço PEQUENO, MÉDIO ou LONGO requerido para alcançar resultados?
+2- Alvo de pesquisa: O desafio está relacionado com GERENCIAMENTO, CONTROLE, SUPORTE, ENTENDIMENTO ou ANÁLISE da evolução do software?
+3- Partes interessadas: Quem é interessado, envolvido ou afetado pela mudança? (GERENTES, DESENVOLVEDORES, ARQUITETOS, USUÁRIOS, PROFESSORES, ESTUDANTES, PESQUISADORES, etc.).
+4- Tipo de artefato sobre estudo: Qual tipo de artefato o desafio está direcionado? (FORMALISMO, FERRAMENTAS, TÉCNICAS, MODELOS, METAMODELOS, LINGUAGENS, PROGRAMAS, PROCESSOS, SISTEMAS, etc.).
+5- 	Tipo de suporte necessário: Qual tipo de suporte é necessário para direcionar os desafios? (SUPORTE FORMAL, SUPORTE FERRAMENTAS, SUPORTE DE PROCESSO, etc.).
+
+- Enumeração dos desafios:
+A- Desafio de prover ferramentas e técnicas que preservem ou até mesmo melhorem as características de qualidade de um software, independente do seu tamanho ou complexidade.
+B- Desafio de desenvolver e suportar um framework comum para fazer pesquisa de evolução do software de forma conjunta.
+C- Técnicas de evolução de software devem ser levantadas num alto nível de abstração para acomodar não apenas a evolução dos programas, mas também a evolução de artefatos de alto nível como modelos de análise e arquitetura, especificação de requisitos, entre outros.
+D- A necessidade de alcançar uma co-evolução entre diferentes tipos de artefatos de software ou diferentes representações deles.
+E- Para ser aceito como ferramenta prática para desenvolvedores de software, métodos formais precisam abraçar mudanças e evoluções como fatos essenciais da vida.
+F- Linguagens de programação (ou de modelagem) devem prover um suporte mais direto e explícito para evolução de software.
+G- Técnicas de evolução de software devem prover mais e melhor suporte para sistema multi-linguagens.
+H- É importante investigar como a noção de mudança de software pode ser integrada com modelos de processo de desenvolvimento de software convencionais.
+I- Aumentar a consciência de executivos e gerentes de projeto da importância e inevitabilidade da evolução de software.
+J- Desafio de desenvolver novas maneiras de registrar a evolução do software que supera as deficiências das ferramentas do estado da arte atuais.
+K- Desafio de descobrir como diferentes tipos de dados podem ser integrados, e como o suporte para esta integração pode ser provida.
+L- Novas ferramentas e técnicas são necessárias para facilitar a manipulação de uma grande quantidade de dados em tempo hábil.
+M- Necessidade de mais pesquisas empíricas para medir o impacto de modelos de processos, ferramentas, linguagens e pessoas.
+N- Necessidade de melhoria de modelos preditivos para que gestores possam avaliar o processo de evolução do software.
+O- Um conjunto comum de benchmarks e estudos de caso que, juntos, são representativos para os tipos de problemas precisando ser estudados.
+P- Como integrar idéias, formalismo, técnicas e ferramentas para evolução de software dentro de nosso currículo de ciência da computação de forma significativa.
+Q- É necessário desenvolver novas teorias e modelos matemáticos para aumentar o entendimento da evolução de software, e investir em pesquisas que tentam preencher a lacuna entre o "que" e o "como" da evolução do software.
+R- Há uma necessidade urgente de propor suporte para adaptações em tempo real para sistema enquanto eles estão rodando, sem a necessidade de pausá-los ou mesmo desligá-los.
