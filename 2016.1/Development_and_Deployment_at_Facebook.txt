@@ -1,0 +1,39 @@
+Development and Deployment at Facebook Comments
+
+- As principais características de desenvolvimento do Facebook são velocidade e crescimento. Se diferencia dos demais pois o software que eles desenvolvem é executado em seus próprios servidores. Sua cultura trata falha como um oportunidade de melhoria ao invés de uma ocasião para atribuir culpa.
+
+- Desenvolvimento perpétuo:
+* Engenheiros continuamente desenvolvem novas funcionalidades e as fazem disponíveis para os usuários.
+* Implantação contínua reflete o hábito de entregar novo código numa série de pequenas mudanças assim que estiverem prontas.
+* As inovações implementadas pelos engenheiros são imediatamente implantadas e usuários reais podem experimentar dando retorno imediato do que funcionou ou não.
+
+- Teste A/B:
+* O teste A/B é uma abordagem experimental para descobrir o que os usuários querem, em vez de tentar elicitar requisitos com antecedência e escrever especificações.
+* Permite situações onde usuários usam novas funcionalidades de maneiras não esperadas.
+
+- Implantação contínua:
+* Frequentes implantações implicam que cada implantação introduz apenas uma limitada quantidade de novo código, isto reduz o risco que alguma coisa dê errado.
+* A habilidade de implantar código rapidamente em pequenos incrementos e sem medo habilita uma rápida inovação.
+* Pode facilmente identificar a fonte e solução para problemas emergentes, a memória do engenheiros ainda está fresca a respeito do problema.
+
+- Pushing novas funcionalidades:
+* O processo de push faz o balanceamento da taxa de inovação com o controle do risco.
+* Revisão de código ocupa uma posição central, cada linha de código escrita é revisada por um engenheiro diferente do autor original.
+
+- Responsabilidade pessoal:
+* Facebook não tem um time de qualidade em separado. Esta separação traria problemas como a necessidade que os testadores teriam de aprender sobre o código e a perpecção de hierarquia de desenvolvimento sobre teste.
+* Metodologias e ferramentas não são suficientes porque podem ser mal utilizadas. A cultura da responsabilidade pessoal é crítica neste contexto.
+* Responsablilidade de desenvolver códigos individualmente é apenas um aspecto na cultura de responsabilidade mútua. Outra responsabilidade vem da experimentação com soulções alternativas para desafios de larga escala.
+
+- Sumário:
+* Não existe um plano detalhado para alcançar um produto final, bem especificado.
+* Engenheiros trabalham diretamente em uma base de código comum, sem branches ou merges.
+* Não há equipe de qualidade separada responsável pelo teste.
+* Novo código é liberado a uma taxa elevada, atualmente, duas vezes por dia de trabalho.
+* Engenheiros auto-selecionam o que deseja trabalhar.
+* Não há atribuição de culpa por falhas.
+* O produto não pode ser especificado com antecedência, e deve evoluir continuamente a um ritmo rápido.
+* Os engenheiros têm experiência em primeira mão no domínio, mas também precisa testar inovações com usuários reais para ver o que funciona.
+* Responsabilidade pessoal pelos engenheiros que escreveram o código pode substituir garantias de qualidade obtida por uma área de teste segregada.
+* Testando em usuários reais em escala é possível, e fornece o feedback mais preciso e imediato.
+* Aprender com a experiência é mais importante e benéfico do que castigar os responsáveis por um fracasso.
