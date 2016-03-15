@@ -1,0 +1,9 @@
+The Case for Continuous Delivery Comments
+
+- Entrega contínua é um conjunto de princípios e práticas para reduzir o custo, tempo e risco de entregar mudanças incrementais para os usuários.
+
+- Um dos principais usos da entrega contínua é garantir que estamos construindo uma funcionalidade que realmente entrega o valor esperado pelo cliente.
+- Entrega contínua reduz o risco da entrega e leva a sistemas mais confiáveis e resilientes.
+
+- O efeito mais interessante de entrega contínua é a redução de custos que acarreta através da redução da quantidade de tempo gasto em atividades sem valor agregado como integração e implantação.
+- Ao fazer isso, se remove completamente as fases de integração e testes que normalmente seguem o desenvolvimento.
