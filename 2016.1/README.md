@@ -7,11 +7,13 @@
 **Student**: Alexandre Mendonça
 
 ## Class #1
+- Class date: MAR/04
 - Subject: Configuration management trough GitHub
 - MAR/05: homework completed.
 - MAR/06: [Git Commands](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Git_Commands.txt) file created.
 
 ## Class #2
+- Class date: MAR/11
 - Subject: Software Evolution
 - MAR/13: [Software Aging] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Software_Aging.txt) file created.
 - MAR/13: [Challenges in Software Evolution] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Challenges_in_Software_Evolution.txt) file created.
@@ -20,5 +22,11 @@
 - MAR/16: homework completed.
 
 ## Class #3
+- Class date: MAR/18
 - Subject: Software Architecture
 - MAR/31: homework completed: [Selenium WebDriver] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/UPE_POLI_EngenhariaSoftware-SeleniumWebDriver-20160401.ppt) presentation created.
+
+## Class #4
+- Class date: APR/01
+- Subject: Software Architecture
+- APR/03: [Painless Functional Specifications] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Painless_Functional_Specifications.txt) file created.
