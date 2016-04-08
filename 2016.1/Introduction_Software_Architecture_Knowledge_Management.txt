@@ -1,0 +1,113 @@
+Introduction to Software Architecture and Knowledge Management Comments
+
+1. Introduction to Software Architecture and Knowledge Management
+
+1.1. Introdução
+Um sistema bem projetado é fácil de implementar, é entendível e confiável, e permite uma evolução suave.
+Sistemas mal projetados podem até funcionar mais rapidamente, mas são difíceis de serem mantidos, de serem testados, e não são confiáveis.
+Arquitetura de software serve para três propósitos principais:
+- É um veículo para comunicação entre as partes interessadas. 
+- Captura decisões de projetos mais cedo. 
+- É uma abstração transferível de um sistema, para ser lido e inspecionado por pessoas.
+Gerenciamento de conhecimento é um campo interdisciplinar largo, e há um debate contínuo do que constitui um gerenciamento de conhecimento. 
+Definição de Davenport para gerenciamento de conhecimento é "Um método simplifica o processo de compartilhar, distribuir, criar, capturar e entender o conhecimento da empresa.".
+A motivação do gerenciamento do conhecimento é tomar decisões mais rápidas e melhores, economizar retrabalho, e melhorar a qualidade dos produtos.
+
+1.2. Arquitetura de Software
+Forças que influenciam a arquitetura:
+- Organização do desenvolvimento.
+- Conhecimento e expertise do arquiteto.
+- Ambiente organizacional e técnico.
+Esta influência mútua entre uma arquitetura e seu ambiente é um processo cíclico, conhecido como Ciclo de Negócio da Arquitetura (ABC - Arquitecture Business Cycle).
+Definições mais atuais para arquitetura de software são: 
+"A arquitetura de um sistema de software define o sistema em termos de componentes computacionais e a interação entre estes componentes."
+"A arquitetura de software de um programa ou sistema computacional é a estrutura ou estruturas de sistemas que compreendem elementos de software, propriedades visíveis externamente destes componentes e o relacionamento entre eles."
+O processo de projeto arquitetural é sobre tomar importantes decisões de arquitetura. Estas decisões precisam ser documentadas. 
+
+1.2.1. Arquitetura de Software e o ciclo de vida do software
+A fase de arquitetura é dividida em duas subfases: projeto global e projeto detalhado.
+Um conjunto inicial de requisitos de qualidade e funcionais é o ponto de partida para desenvolver uma arquitetura inicial.
+Esta arquitetura inicial resulta num número de problemas que requerem discussões adicionais com as partes interessadas.
+A solução prevista pode ser muito cara, de integração complexa com sistemas existentes, de difícil manutenção por falta de conhecimento técnico da equipe, ou por ter requisitos de performance inalcançáveis.
+Estas dificuldades vão demandar mais conversas com as partes interessadas, requisitos revisados e arquitetura revisada.
+Este processo de interação continua até que um acordo seja alcançado.
+Somente após este fechamento é que se segue para o projeto detalhado.
+
+1.2.2. Projeto de Arquitetura
+A saída do processo de arquitetura é uma reconstrução racional deste processo.
+Durante o projeto, o sistema é decomposto em partes onde cada uma tem uma complexidade menor do que o sistema como um todo, enquanto as partes juntas resolvem o problema do usuário.
+A entrada do processo ADD (Attribute Driven Design) são os requisitos, formulados como um conjunto cenários de atributos de qualidade priorizados.
+Um cenário de atributo de qualidade é um cenário como conhecido pelos engenheiros de requisitos, mas cuja descrição explicitamente captura informações de qualidade.
+ADD é um processo de decomposição topdown.
+Na primeira iteração, temos um único componente para ser decomposto: o sistema.
+Um importante atributo de qualidade é selecionado para ser manuseado e refinado.
+Por exemplo, decisão pode ser por decompor o sistema em três camadas: camada de apresentação, camada de regra de negócio e camada de persistência.
+No próximo passo ADD, se decide decompor a camada de apresentação para selecionar usabilidade como o atributo de qualidade que direciona esta decomposição.
+O fluxograma global tem no seu centro o backlog, que contém uma lista de dúvidas a serem sanadas, problemas abertos, ideias a serem investigadas, etc.
+O backlog guia o projeto.
+Temos três entradas para o backlog:
+1- contexto: ideias iniciais de como a arquitetura deve ser, avaliações disponiveis, conjunto de restrições, etc.
+2- requisitos.
+3- resultados avaliados: em cada passo do processo arquitetural, itens do backlog podem ser usados para transformar a arquitetura. O resultado desta transformação é avaliado e esta avaliação pode mudar o conteúdo do backlog (adição de novos itens, itens podem ser eliminados e prioridades dos itens do backlog podem ser modificadas).
+
+1.2.2.1. Arquitetura como um conjunto de decisões de projeto
+Há diferentes tipos de decisões de projeto não documentadas:
+- A decisão de projeto é implícita: exemplos são experiências recém aprendidas, políticas implícitas da empresa para utilizar certos padrões, abordagens, etc.
+- A decisão de projeto é explícita, mas não documentada: arquiteto toma uma decisão por uma razão muito específica. A razão não é documentada, e é provável que se perca com o tempo.
+- A decisão de projeto é explícita, e explicitamente não documentada: a razão é escondida, por motivos da empresa ou motivos pessoais do arquiteto (proteger sua posição).
+É uma ilusão querer documentar todas as decisões de projeto, por isso devemos tentar documentar as realmente importantes.
+Informações que devem ser capturadas em cada decisão tomada:
+- Dúvida (Issue): dúvida de projeto endereçada por esta decisão.
+- Decisão: a decisão tomada.
+- Status: o status da decisão (pendente, aprovadas, etc.).
+- Premissas: premissas sobre o ambiente na qual a decisão foi tomada.
+- Alternativas: alternativas consideradas para esta decisão.
+- Análise racional: uma explicação do porquê a decisão foi tomada.
+- Implicações: implicações desta decisão, como a necessidade de requisitos ou decisões adicionais.
+- Comentários: informações adicionais que pode-se querer capturar.
+
+1.2.3. Visões Arquiteturais
+IEEE nos dá uma estrutura geral para representações da arquitetura do software. Os principais elementos são:
+- Partes interessadas: um indivíduo, time ou organização com interesse ou preocupações com o sistema.
+- Visão: uma representação do sistema como um todo da perspectiva de um conjunto relacionado de preocupações.
+- Ponto de vista: um ponto de vista estabelece um propósito e um público alvo para uma visão e a técnica ou método empregado na construção da visão.
+Classes de ponto de vista:
+- Ponto de vista modular dá uma visão estática do sistema. 
+- Ponto de vista de componente ou conector dá uma visão dinâmica do sistema. Descreve o sistema em execução.
+- Ponto de vista de alocação dá uma relação do sistema com seu ambiente, e também quem é responsável por qual parte do sistema.
+
+1.2.4. Conhecimento Arquitetural
+Conhecimento arquitetural = projeto arquitetural + decisões de projeto arquitetural
+
+1.3. Gerenciamento do Conhecimento
+Desenvolver software requer conhecimento técnico profundo em muitos domínios especificos.
+
+1.3.1. Conhecimento e Gerenciamento do Conhecimento
+Conhecimento é definido como consciência ou familiaridade adquirida pela experiência ou entendimento prático e teórico sobre um assunto.
+Conhecimento tácito é o conhecimento que um homem não consegue expressar explicitamente, mas está guiando o comportamento do homem. Exemplo: processos de conhecimento baseados em tentativa e erro.
+Conhecimento explícito é o conhecimento que podemos representar.
+
+9. Raciocínio de Projeto de Arquitetura de Software
+
+9.1. Introdução
+Estudo de uma metodologia para superar a prática ah doc de tomar decisões de projeto arquitetural e para melhorar a qualidade do projeto arquitetural do software.
+Análise racional do projeto pode ser caracterizada de duas maneiras:
+1- Elas são as razões para tomada de decisão e escolha da solução.
+2- Explicam o relacionamento entre a solução e o contexto da solução.
+
+9.2. Raciocínio do Projeto Arquitetural de Software
+Projetos bem sucedidos contam com pessoas experientes e com bom julgamento.
+O desafio é como melhorar sistematicamente a habilidade de raciocínio dos arquitetos para entregar consistemente uma arquitetura satisfatória e melhorar o processo de garantia de qualidade do projeto arquitetural.
+Estudos mostram que quem é requerido para externalizar seus raciocínio de arquitetura é provavelmente mais cuidadoso e metódico nas suas soluções de arquitetura.
+Outro estudo mostra que a documentação da análise racional sobre a arquitetura ajuda arquitetos a entender e raciocinar sobre suas arquiteturas.
+
+9.3. Modelo de Raciocínio do Projeto Arquitetural
+Um modelo de raciocínio simples tem três elementos: entradas, decisões e saídas.
+Entradas são requisitos e metas que precisam ser atingidas pelo sistema.
+Decisões são decisões feitas para a arquitetura do sistema.
+Saídas são os resultados da arquitetura.
+Raciocínio da arquitetura é modelado pela descrição do contexto arquitetural, a justificativa arquitetural, as saída arquitetural e seus relacionamentos.
+Modelo conceitual do AREL (Arquitecture Rationale and Elements Linkage).
+Quando uma decisão arquitetural é tomada, temos a arquitetura escolhida e algumas arquiteturas alternativas, que são opções consideradas, porém descartadas.
+
+9.3.1. Preocupação com Arquitetura

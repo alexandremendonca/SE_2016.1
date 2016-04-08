@@ -30,3 +30,4 @@
 - Class date: APR/01
 - Subject: Software Architecture
 - APR/03: [Painless Functional Specifications] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Painless_Functional_Specifications.txt) file created.
+- APR/07: [Introduction to Software Architecture and Knowledge Management] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Introduction_Software_Architecture_Knowledge_Management.txt) file created.

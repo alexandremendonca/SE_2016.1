@@ -32,11 +32,11 @@ Especificação funcional descreve como um produto trabalhará por inteiro para 
 Especificação técnica descreve a implementação interna de um programa. Se escreve sobre estrutura de dados, modelos relacionais, escolha de linguagem de programação e ferramentas, algoritmos, etc.
 
 Pontos importantes de toda especificação:
-- Uma isenção de responsaabilidade: versões iniciais devem conter informações como "esta especificação não está completa". A medida que a especificação começa a ficar completa, o texto pode ser modificado para "esta especificação está completa, de acordo com o melhor do meu conhecimento, mas se algo for esquecido, favor nos contactar.".
+- Uma isenção de responsabilidade: versões iniciais devem conter informações como "esta especificação não está completa". A medida que a especificação começa a ficar completa, o texto pode ser modificado para "esta especificação está completa, de acordo com o melhor do meu conhecimento, mas se algo for esquecido, favor nos contactar.".
 - Apenas um autor: sua especificação deve ser escrita por um único autor. Se o produto é grande, quebre-o em módulos e dê cada módulo para um autor diferente especificar. Pessoas devem ter responsabilidade e propriedade sobre as coisas que especificam. Se algo der errado com a especificação, temos uma única pessoa para a corrigir.
 - Cenários: é necessário ter alguns cenários da vida real em mente de como pessoas vão utilizar o produto. Direcione para o público alvo do seu produto imaginando um usuário fictício, mas estereotipado, utilizando o produto da forma mais comum para ele.
-- Escopo negativo: coisas que você simplesmente não irá fazer. Pode ser funcionalidades que o produto não terá ou algo para genérico (primeiro release não tem preocupação com performance, por exemplo). Algum debate pode acontecer, mas será importante para enriquecer sua especificação.
-- Uma visão geral: tabela de conteúdo da sua especificação. Pode ser um fluxograma ou uma discursão arquitetural. A ideia é que se tenha uma visão geral do produto.
+- Escopo negativo: coisas que você simplesmente não irá fazer. Pode ser funcionalidades que o produto não terá ou algo mais genérico (primeiro release não tem preocupação com performance, por exemplo). Algum debate pode acontecer, mas será importante para enriquecer sua especificação.
+- Uma visão geral: tabela de conteúdo da sua especificação. Pode ser um fluxograma ou uma discussão arquitetural. A ideia é que se tenha uma visão geral do produto.
 - Detalhes: são a parte mais importante de uma especificação funcional. Fluxos de exceção descritos em detalhes correspondem a decisões que alguém vai ter que fazer. Alguém tem que decidir sobre a política que vai nortear as decisões de projeto, e a especificação precisa documentar estas decisões.
 - Problemas abertos: para versões iniciais da sua especificação, não é negativo levar problemas abertos (riscos de projetos). No momento que os desenvolvedores começarem a trabalhar, todas estas necessidades devem estar sanadas.
 - Notas laterais: quando se escreve uma especificação, é importante lembrar do público interno que irá consumir este documento: desenvolvedores, testadores, marketing, técnicos de escrita de manual, etc. Se pode direcionar para um grupo específico, se for preciso, utilizando "Nota Técnica", "Nota de Marketing", "Nota de Teste" ou "Nota de Documentação".
@@ -47,25 +47,25 @@ Part 3: But... How?
 
 Quem escreve especificações?
 Um desenvolvedor master poderia ser responsável por escrever todo o código, mas iria contar com uma equipe de desenvolvedores juniores como escravos de código.
-Este desenvolvedor master foi chamado de gerente de programa. O problemas de comunicação estaria resolvido pois um novo desenvolvedor junior falaria apenas com o gerente de programa.
+Este desenvolvedor master foi chamado de gerente de programa. O problema de comunicação estaria resolvido pois um novo desenvolvedor junior falaria apenas com o gerente de programa.
 Esta ideia não vingou pois ninguém quer ser um desenvolvedor escravo.
 Jabe Blumenthal reiventou a posição de gerente de programa. Ele deve ser aquele que é dono da arquitetura e da especificação do produto.
 Um gerente de programa precisa reunir requisitos, escrever especificações, coordenar marketing, documentação, teste, e todos os detalhes que os desenvolvedores não precisam se preocupar.
 
 Como contratar um gerente de programa?
 1- Não promova um codificador para ser um gerente de programa: habilidades para ser um bom gerente de programa não são compatíveis com as habilidades de ser um bom codificador. Promover um codificador que escreve bem em C# para escrever em Português é um erro.
-2- Nãoo deixe o pessoal de marketing se tornar um gerente de programa: boas pessoas em marketing raramente têm uma boa compreensão técnica para projetar o produto. O gerente de programa é um caminho de carreira separado.
-3- Não tenha codificadores reportando para gerente de programa: a escolha é construir um consenso. O certo é que o gerente de programa esteja na base da árvore de reporte, ou seja, ninguém reporta para o gerente de programa. Se o gerente de programa quer que alguém faça algo, ele terá que convencê-los de que á a coisa certa a fazer.
+2- Não deixe o pessoal de marketing se tornar um gerente de programa: boas pessoas em marketing raramente têm uma boa compreensão técnica para projetar o produto. O gerente de programa é um caminho de carreira separado.
+3- Não tenha codificadores reportando para gerente de programa: a escolha é construir um consenso. O certo é que o gerente de programa esteja na base da árvore de reporte, ou seja, ninguém reporta para o gerente de programa. Se o gerente de programa quer que alguém faça algo, ele terá que convencê-los de que é a coisa certa a fazer.
 
 ---------------------------------------------------------------------------------------
 Part 4: Tips
 
-Seguem alguns consehos para escrever boas especificações.
+Seguem alguns conselhos para escrever boas especificações.
 Especificações são boas, mas não se não estão sendo lidas. Como um bom escritor de especificações, você tem que levar as pessoas a ler seu material.
 
 Regra 1: Seja divertido
 Faça da leitura da sua especificação uma experiência agradável.
-A maneira mais fácil de ser engraçado está nos exemplos.
+A maneira mais fácil de ser divertido está nos exemplos.
 Ao invés de escrever: "O usuário digita CTRL+N para criar uma nova tabela de empregados e começar a entrar com o nome dos empregados.";
 Escreva: "Senhorita Isa, cutucando o teclado com uma vara porque seus dedos gordinhos não conseguem pressionar as teclas CTRL+N para criar uma tabela Namorados com um único registro "Alex"".
 Se você trabalha numa empresa onde as pessoas te respeitam menos porque suas especificações são divertidas e agradáveis de serem lidas, então procure outra empresa para trabalhar.
@@ -73,9 +73,9 @@ Se você trabalha numa empresa onde as pessoas te respeitam menos porque suas es
 Regra 2: Escrever uma especificação é como escrever um código com a cabeça de um executivo
 Quando um desenvolvedor escreve um código, seu público alvo é o compilador.
 O erro seria que ao escrever uma especificação, além de estar correta, ela tem que ser entendível, ou seja, precisa ser escrita de tal forma que um cérebro humano possa o compilar.
-Humanos não entendem o que você está falando ao menos que os motive primeiro. Para humano, é preciso prover uma visão geral e depois preencher com detalhes.
+Humanos não entendem o que você está falando ao menos que os motive primeiro. Para um humano, é preciso prover uma visão geral e depois preencher com detalhes.
 A maneira que o cérebro humano funciona não é um acesso randômico, alguns caminhos são forçados em nosso cérebro e alguns são mais fáceis de serem entendidas, porque elas são mais comuns.
-Quando se está escrevendo uma especificação, tente imaginar a pessoa que a espcificação deverá ser direcionada, e tente imaginar o que você perguntaria para entender cada passo. 
+Quando se está escrevendo uma especificação, tente imaginar a pessoa que a especificação deverá ser direcionada, e tente imaginar o que você perguntaria para entender cada passo. 
 
 Regra 3: Escreva o mais simples possível
 Utilize a linguagem mais simples que se possa utilizar.
@@ -85,6 +85,6 @@ Nada melhora mais uma especificação do que muitas figuras.
 Regra 4: Revise e releia várias vezes
 Quando uma sentença for identificada por não estar muito fácil de ser entendida, a rescreva.
 
-Regra 5: Considere templates nocivos
+Regra 5: Considere que os templates são nocivos
 Proiba a tentativa de fazer um template padrão para suas especificações.
 Uma especificação é um documento que você quer que seja lido. Neste sentido, não é diferente de uma redação de um jornal.
