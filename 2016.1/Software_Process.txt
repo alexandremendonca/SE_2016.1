@@ -1,0 +1,235 @@
+Software Process Comments
+
+1. Introdução
+
+Não existe um setor econômico ou aspecto de nossa vida pessoal diária que não seja afetada por software.
+Todos os setores são profundamente permeados e governados por sistemas e aplicações de software.
+Pesquisas de processo de software tem focado em entender, descrever, evaliar, automatizar e melhorar procedimentos, políticas e técnicas usados para dominar esta tarefa complexa.
+
+
+2. Processo de Software nos anos 2000
+
+Artigo FOSE 2000 identificou quatro áreas de investigação:
+- Suporte e modelagem de processo: área de pesquisa centrada na criação de linguagens e ambiente para descrever e modelar processos complexos.
+- Melhoria de processo: identificar métodos e abordagens para estudar a maturidade de um processo e identificar estratégias e procedimentos para o melhorar.
+- Métricas e estudo empírico: desenvolver e aplicar técnicas e métodos para desempenhar estudos empíricos e identificar méticas úteis habilitadas para caracterizar e avaliar o desempenho do processo de software.
+- Processo "real": vários processos concretos foram concebidos e aplicados, tais como Unified Process e Personal Software Process.
+
+Artigo FOSE 2000 elaborou uma série de considerações e críticas:
+1- Processo de software são processos também: não é possível (e útil) considerar processos de software como entidades únicas e específicas que merecem um esforço de pesquisa completamente autônomo e independente.
+2- O propósito das linguagens e tecnologia de processo deve ser repensado: muitas linguagens desenvolvidas na década de 90 são complexas e rígidas.
+3- Estudos empíricos são um meio, e não um fim: risco de muito estudos empíricos se tornarem exercícios formais sem prática e relevância concreta.
+4- Melhoria de processo de software é uma melhoria de processo também: síndrome do isolamento - geralmente processos de software são considerados uma categoria única e específica, assim ignorando ou subestimando as contribuições de outras disciplinas e áreas de pesquisa.
+
+Pesquisa de processo de software definitivamente precisam de um mudança significativa de escopo e abordagem.
+
+
+3. Processo de Software na Década Passada
+
+3.1. Aspectos Sociais
+
+O processo de desenvolvimento de software tem sido considerado como um sistema sócio-técnica, onde aspectos humanos e organizacionais tem um papel chave e tem que ser suportados por tecnologia de uma maneira que humanos e organizações são guiadas.
+Melhoria é o resultado da interação adequada entre aspectos centrados no homem (principalmente aspectos sociais) e tecnologia.
+Estes dois elementos não devem ser estudados e otimizados de forma isolada, visto que esta abordagem normalmente não consegue atingir o objetivo esperado.
+Se identificou uma congruência sócio-técnica como uma maneira de definir o ajuste entre dependências de produtos, as dependências de tarefas resultantes e as atividades de coordenação reais que ocorrem durante o processo de desenvolvimento.
+
+3.2. Processos Ágeis
+
+Manifesto ágil é baseado em princípios chave:
+1- o produto de software é o foco essencial do processo de desenvolvimento.
+2- comportamento humano e a qualidade das iterações são facilitadores essenciais e fatores de sucesso.
+3- abordagens incrementais e espirais, baseada em releases frequentes e alta colaboração dos clientes, são traços de excelência de iniciativas de desenvolvimento de software moderno.
+4- em geral, é vital reagir prontamente e rapidamente a mudanças de requisitos, em qualquer fase do processo de desenvolvimento.
+
+Scrum é certamente o mais popular e bem sucedido.
+Este processo é organizado em sprints, iterações de desenvolvimento curtas.
+Cada sprint é focado num conjunto específico de funcionalidades.
+Controle e acompanhamento do projeto é realizado através de reuniões diárias curtas, onde cada membro do time informa o que fez no dia anterior, o que está fazendo no dia atual e quais são os obstáculos que se deparou. 
+Mudanças de requisitos são aceitas e bem-vindas, mas não no sprint atual. Deve ser planejado e priorizado para os próximos sprints.
+Algumas críticas dizem que métodos ágeis não tem estrutura e organização, portanto são difíceis de serem aplicados em processos de desenvolvimento de grande porte.
+
+3.3. Engenharia de Software Global
+
+A motivação para as equipes de desenvolvimento distribuídas vai além das questões relacionadas especificamente com atividades de desenvolvimento de software, e pode incluir uma série de aspectos e necessidades:
+- estabelecer e manter um contato direto e forte com clientes em locais remotos;
+- explorar a disponibilidade de trabalhadores remotos;
+- reduzir os custos de deslocalização parte do processo para uma subsidiária / empresa remoto;
+- melhorar as capacidades de pequenas empresas através da criação de redes e quadros de cooperação com outras organizações de desenvolvimento e equipes.
+
+3.4. O papel da Engenharia de Software Empírica
+
+Existe muitas pesquisas em andamento trabalhando centrados em estudos empíricos rigorosos cuja meta é mostrar vantagens de alguma nova prática ou abordagem ou demonstrar a validade de um hipótese pesquisada.
+
+3.5. Engenharia Orientada a Modelos
+
+Engenharia orientada a modelos é uma abordagem específica de desenvolvimento de software que foca no uso de modelos como tipo de arquitetura para construir sistemas de software.
+
+A abordagem de Arquitetura Orientada a Modelos (MDA) identifica três diferentes pontos de vista utilizados para descrever um sistema:
+1- Modelo de Indepemdência Computacional (CIM): usualmente representa conceitos específicos de um dado negócio. Este nível normalmente descreve requisitos, arquitetura empresariais e modelos de negócios.
+2- Modelo de Independência de Plataforma (PIM): discute como o sistema trabalha pela abstração de elementos específicos da plataforma. Neste nível, modelos arquiteturais são elaborados descrevendo a lógica de negócio da aplicação.
+3- Modelo Específico de Plataforma (PSM): introduz aspectos que estão preocupados com o uso de uma plataforma específica. 
+
+3.6. ALM
+
+Gerenciamento do Ciclo de vida da Aplicação (ALM) são uma classe de produtos originados parcialmente pela indústria de software convencional e parcialmente pela comunidade de software livre.
+
+ALM está apresentado como uma disciplina com o objetivo de cuidar também dos procedimentos de operação de aplicativos e governança gerencial.
+
+3.7. Onde Automação realmente Importa
+
+Atualmente, a mais importante aplicação de automação no processo de software está no suporte a fases finais do desenvolvimento de software.
+
+3.7.1. Gerenciamento da Configuração
+
+Tem sido revitalizada por novas ferramentas.
+Devido a forges, gerenciamento de versões não é mais visto como uma funcionalidade muito difícil de instalar e operar, mas como um serviço que times utilizam diariamente para gerenciar software, conduzindo discussões, compartilhando informações dentro de um time de projeto.
+
+3.7.2. Garantia de Qualidade
+
+- Desenvolvedores podem usar facilmente ferramentas de análise de código fonte que provêem indicadores e métricas sobre a qualidade do software sendo desenvolvido.
+- Teste podem ser significativamente automatizado. A execução de testes unitário e de integração é realmente automatizada graças a difusão da família XUnit. Outra ferramenta é o Selenium que cria casos de teste automatizados para aplicações WEB.
+- Testes de aceitação podem ser automatizados. As ferramentas (Easyb e Fitnesse) automatizam a execução de testes expressando rigorosamente os requisitos.
+- O processo de teste como um todo está sendo automatizado. Ferramentas (STAF) modelam quando teste deve ser iniciado, quais testes devem ser executados e sobre quais circunstâncias.
+
+3.7.3. Software Building
+
+- Através de scripts (Maven), todo usuário está habilitado a fazer um checkout de um release do software para um sistema de gerenciamento de versões, download todos os componentes e bibliotecas externas necessárias e preparar-se para implantação do produto final.
+- Framwork como Jenkins, fecham o ciclo de integração pela integração de outras ferramentas e oferecem um ambiente que pode ser configurado para gerar automaticamente um produto pronto para ser implantado, assim que uma nova versão de um arquivo do código fonte seja empurrado (push) para o sistema de gerenciamento de versão.
+- Automação tem um papel na fase de operação, introdução da virtualização e mecanismos de controle remoto e da difusão de nuvens (cloud) públicas e privadas.
+
+3.7.4. DevOps
+
+O nível crescente de automação habilita desenvolvedores para cumprir os requisitos de aplicações críticas de negócios em termos de disponibilidade, confiabilidade e tempo de resposta.
+Ao mesmo tempo, cria-se uma ponte entre o desenvolvimento e as atividades operacionais que é geralmente identificada pelo termo DevOps.
+As métricas utilizadas para avaliar o desempenho do time estão focadas na qualidade e estabilidade do serviço final.
+
+
+4. Maiores Tendências e Desafios
+
+4.1. Desafio 1: A Internet é o ambiente de desenvolvimento
+
+1- Software é raramente desenvolvido isoladamente, cada vez mais é resultado de interações, integrações e cooperações entre desenvolvedores e usuários trabalhando num contexto de desenvolvimento de software na rede.
+Isto está guiando uma mudança profunda e radical em métodos e técnicas usadas para convencer, projetar, desenvolver, testar, implantar e evoluir software.
+2- Software é continuamente modificado e reimplantado baseado na expectativas e requisições dos clientes. Isto requer desafios para processos como gerência de configuração e operação e implantação de software.
+O ambiente e tecnologia de apoio devem operar de forma confiável na Internet.
+3- É importante para alguns produtos que atinjam o time-to-market com alta confiabilidade e qualidade. Alguns softwares são criados para eventos específicos, mas outros devem funcionar por décadas e devem evoluir de acordo com a tecnologia a sua volta.
+Modelos e padrões de qualidade existentes precisam ser extendidos e adaptados para contextos e situações muito diferentes.
+
+4.2. Desafio 2: A Internet é uma infraestrutura de execução e arquitetural
+
+Sistemas mais modernos são construídos pela agregação e recombinação de componentes de software distribuídos interagindo na Internet.
+Cada vez mais, qualquer software está operando e integrado com Internet direta ou indiretamente.
+A clássica separação entre tipos diferentes de software tende a desaparecer ou se tornar mais complexo de articular e dominar.
+1- Internet das coisas: qualquer produto está se tornando inteligente pela incorporação de alguma capacidade computacional ou de comunicação;
+2- smart services: serviços clássicos interagindo com objetos "inteligentes" se tornam "smart service". 
+3- computadores desaparecendo: dispositivos computacionais tendem a desaparecer visto que não estão mais unicamente associados com PCs ou notebooks convencionais.
+
+Computação nas nuvens é baseada na virtualização através da Internet ou diferentes tipos de serviços e infraestruturas:
+- Infraestrutura como um Serviço (IaaS): provisionamento de máquinas virtuais e outros elementos de infraestrutura.
+- Plataforma como um Serviço (PaaS): provisionamento de banco de dados, web services e outros ambientes de tempo real.
+- Software como um Serviço (SaaS): provisionamento de aplicações de software como um serviço remoto.
+
+4.3. Desafio 3: Usuários são móveis, nômades e sempre conectados
+
+- Dispositivos móveis exibem fatores diferentes e paradigmas de interação. É mandatório integrar técnicas e expertise de projeto de software com métodos e habilidades de projetistas industriais.
+- Software móvel deve operar levando em consideração a confiança variável da conexão da internet deve ser forçada a usar. 
+- Uma questão crucial para dispositivos móveis é o consumo de energia. Projetistas de software devem se tornar cada vez mais preocupados que software deve ser projetado para minimizar o uso de recursos de hardware e comunicação e , consequentemente, reduzir consumo de energia.
+
+Projetar software para dispositivos móveis não é apenas uma variação do processo de desenvolvimento clássico.
+
+4.4. Desafio 4: A Internet é a infraestrutura de negócios e distribuição básica
+
+A distribuição e comercialização de software tem se modificado como consequencia de:
+- dispositivos estão permanentemente conetados na Internet.
+- softwares podem ser facilmente distribuídos, instalados e configurados através da Internet.
+
+1- Atualizações de software podem ser realizadas com mais frequencia. 
+2- Usuários e clientes esperam atualizações frequentes para sanar defeitos encontrados usando aplicações de software.
+3- Desenvolvimento de software não é mais restrito por mercados locais ou nacionais. Software deve estar habilitado a operar em diferentes línguas e levar em consideração requisitos específicos e restrições de cada região.
+4- E-commerce tem sido aplicado também para distribuição de software. 
+
+Estas tendências tem gerado uma importante inovação: app store.
+Inicialmente, seu objetivo é simplesmente a compra de aplicações de software nos dispositivos móveis.
+iPhone introduziu uma mudança radical: App Store é a única maneira legal de vender e instalar software em dispositivos móveis da Apple.
+Portanto, App Store define um ecossistema na qual um produtor de hardware e software controla a plataforma (iOS), e o processo usado para distribuir e vender qualquer outro software.
+App store define um novo mercado de software, não apenas porque eles mudam o processo no qual através do qual software é distribuído e instalado, mas também porque eles introduzem um novo modelo de negócio e interrompem as abordagens comerciais existentes.
+
+Conflitos da evolução dos sistemas operacionais:
+- O papel do sistema operacional tende a se tornar menos relevante: muitas aplicações são baseadas na WEB se tornando independentes de um sistema operacional específico; muitas tecnologias ou ambientes de desenvolvimento são transparentes com relação ao sistema operacional rodando no PC.
+- Plataformas e sistemas operacionais tradicionais proliferaram com a introdução de novas famílias de dispositivos móveis.
+
+O número de ambientes alvo que o desenvolvedor deve considerar para planejar uma iniciativa de desenvolvimento de software aumentou significativamente. 
+Toda a cadeia de distribuição e desenvolvimento de software tem se modificado radicalmente: a implantação de gerenciamento da mesma aplicação através de múltiplas plataformas e lojas tem se tornado extremamente complexa e cara.
+A garantia de qualidade e segurança de software tem se tornado cada vez mais importante e crítico do que antes, como as conquistas alcançadas até agora ainda não permitem atender plenamente tal complexidade.
+
+Recentemente, uma nova forma de de ecossistema está surgindo: ecossistemas de API aberta.
+- Uma plataforma de interoperabilidade digital baseada no paradigma de Serviço Orientado a Arquitetura (SOA), padrões abertos e modelos de interoperabilidade.
+- Um conjunto de regras e políticas que garantam um acesso não discriminatório para o ecossistema e promovendo a colaboração e cooperação entre os desenvolvedores individuais, empresas privadas e administrações públicas.
+- Um modelo de governança e processos relacionados que garantem a neutralidade do ecossistema com respeito a interesses e necessidades especiais, evolução de especificações técnicas, promoção e difusão do ecossistema através de todos os domínios e setores da sociedade.
+- Um processo participativo aberto que permite que todos possam contribuir e colaborar.
+
+
+5. Problemas e Direcionamentos de Pesquisas
+
+5.1. De uma Conformidade Rígida para uma Convergência Sábia
+
+Processo de desenvolvimento de software está centrado em humanos. Muitas atividades que fazem parte deste processo não podem ser totalmente automatizadas.
+Desenvolvimento de software é um processo complexo na qual não é útil ou possível forçar uma conformidade passo a passo com um modelo rígido pré-definido.
+É mais importante garantir que o processo como um todo converge para um resultado esperado, controlando, tolerando e expondo inconsistências assim que acontecerem.
+Uma convergência "sábia" é mais importante do que uma conformidade rígida.
+
+É essencial estudar novas abordagens, práticas gerenciais, métodos de arquitetura e soluções técnicas para fazer uma convergência sábia e ágil que seja fácil de implementar um processo de desenvolvimento de software tradicional, quando este é requerido ou desejável.
+
+5.2. A Distinção entre Arquitetura, Desenvolvimento e Operação
+
+Há cada vez mais uma conexão forte e dependência mútua entre arquiteturas de software e infraestruturas.
+Temos três consequência principais:
+1- A arquitetura de um sistema de software moderno é estritamente dependente da natureza e características da infraestrutura sendo utilizada para o implementar.
+2- Cada vez mais, sistemas evoluem como uma combinação de atividades de desenvolvimento de software clássico, evolução da infraestrutura e reconfiguração on-the-fly de componentes em tempo real. 
+3- Requisitos não-funcionais relacionados ao gerenciamento de desempenho e tolerância a falhas são cruciais e podem ser considerados ao longo do todo o processo de desenvolvimento e não apenas como problemas implementados para lidar com "uma vez que o sistema vai para produção".
+
+A distinção clássica entre arquitetura, desenvolvimento e operação	tende a desaparecer ou ser radicalmente redefinidas.
+
+5.3. Avaliação e Visualização do Processo
+
+Um dos mais importantes e cruciais problemas em dominar qualquer fenomeno complexo está sendo entender e avaliar seu estado e comportamento.
+É essencial identificar e desenvolver novos métodos para avaliar, representar e comunicar o estado do processo de desenvolvimento de software.
+É realmente necessário novos paradigmas que estejam habilitados a transmitir intuitivamente a informação chave para descrever o estado de um processo, da organização e do sistema de software a ser gerido e apoiar o seu estudo e avaliação, sempre que necessário ou desejável.
+
+5.4. Segurança, Privacidade e Confiança
+
+Ameaças de segurança podem emergir de qualquer lugar: gerenciamento de ambiente de desenvolvimento, comunicação entre front end e back end, gerenciamento de front end, interface com usuário, engenharia social.
+Qualquer fase da cadeia de valor pode ser atacada e expor empresas e indivíduos a riscos severos.
+
+Como pesquisadores, nós podemos identificar e avaliar os maiores problemas, propor caminhos para monitorar e gerenciar ameaças, avaliar o impacto que estes problemas podem ter nas atividades de desenvolvimento de software.
+
+5.5. Controlado X Colaboração e Interação não Planejadas
+
+Importantes tendências a se considerar em colaboração:
+1- Colaboração nas empresas e entre as empresas e seus clientes ocorrem em escala de Internet. 
+2- Software livres e outras comunidades baseadas na Internet mudam a dinâmica intrínseca com a qual software é concebido, desenvolvido e distribuído.
+3- O impressionante desenvolvimento da computação nas nuvens, composição baseada na Internet e serviços mashup estão radicalmente transformando a noção de colaboração entre desenvolvedores de software.
+
+5.6. Modelos Organizacionais e de Negócios
+
+De um lado, software é considerado um produto de consumo que reflete tendências e percepções de cada tipo de mercado.
+De outro, software é o componente mais crítico e sofisticado de qualquer produto ou serviço complexo.
+Software não é uma mercadoria, custa, e não é de graça.
+
+Novos e inovadores modelos de negócio não podem ser concebidos apenas considerando fatores e restrições puramente econômicas.
+Deve ser alinhado com características intrínsecas de serviços inovadores e modelos de produtos.
+
+5.7. "Não açoite o cavalo morto"
+
+As mudanças na forma que vivemos e na tecnologia imersa tem um impacto profundo na engenharia de software e pesquisas de processos de software.
+
+Um risco maior de qualquer comunidade científica é focar em áreas de pesquisa que se consolidaram ao longo dos anos, independentemente do real impacto dos resultados que têm sido alcançados e das questões emergentes que merecem novas energias e foco.
+
+
+6. Conclusões
+
+Eles realmente precisam de abordagens inovadoras e eficazes para dominar a complexidade das atividades de desenvolvimento de software, reduzir os riscos, garantir a confiança e confiabilidade das soluções de software necessárias para a sociedade.
+
+- Nós precisamos ser abertos para tendências que afetam o mercado e a sociedade como um todo.
+- Pesquisa de Processo de Software é extremamente complexa e multifacetada. 
+- Como pesquisadores, nós precisamos abondanar a nossa zona de conforto e sermos abertos para novos desafios, sugestões, ideias e tendências emergindo de qualquer lugar da sociedade.
