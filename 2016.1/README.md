@@ -37,3 +37,4 @@
 - Subject: Software Process
 - Robson Fidalgo's presentation about MDE (Model-Driven Software Engineering)
 - APR/13: [Software Process] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Software_Process.txt) file created.
+- ABR/29: Rodin [task 1] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/BridgeProblem.zip) and [task 2] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/SisBanco_v2.zip) completed.

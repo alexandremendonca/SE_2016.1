@@ -4,7 +4,7 @@ Software Process Comments
 
 Não existe um setor econômico ou aspecto de nossa vida pessoal diária que não seja afetada por software.
 Todos os setores são profundamente permeados e governados por sistemas e aplicações de software.
-Pesquisas de processo de software tem focado em entender, descrever, evaliar, automatizar e melhorar procedimentos, políticas e técnicas usados para dominar esta tarefa complexa.
+Pesquisas de processo de software tem focado em entender, descrever, avaliar, automatizar e melhorar procedimentos, políticas e técnicas usados para dominar esta tarefa complexa.
 
 
 2. Processo de Software nos anos 2000
