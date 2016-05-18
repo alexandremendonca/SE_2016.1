@@ -1,0 +1,83 @@
+Requirements Defects over a Project Lifetime:
+An Empirical Analysis of Defect Data from a 5-Year Automotive Project at Bosch
+
+Comments
+
+1- Introdução
+Quais são os tipos de defeitos de requisitos que ocorrem?
+Quais tipos ocorrem mais frequentemente?
+Quais tipos de defeitos de requisitos são mais custosos de serem corrigidos?
+A análise apresentada neste artigo é baseada em 588 defeitos em requisitos de sistema (um conjunto de requisitos de sistema modificados durante a execução do projeto).
+
+2- A configuração geral da análise
+
+2.1- Metas e Questões
+De acordo com o padrão IEEE 830, os defeitos foram classificados de acordo com o atributo que foi violado: incorreto, ambíguo, incompleto, inconsistente, não priorizado, não verificável, não modificável e não rastreável.
+Qual classe de defeitos de requisitos ocorrem mais frequentemente?
+Qual classe de defeitos de requisitos ocorrem menos frequentemente?
+Qual classe de defeitos de requisitos são mais custosas de serem corrigidas?
+Qual classe de defeitos de requisitos são menos custosas de serem corrigidas?
+
+2.2- Coletando dados para análise
+Defeitos identificados durante a revisão de requisitos (conjunto de dados 1): 509 relatos de defeitos de requisitos.
+Defeitos identificados em fases de desenvolvimento posteriores (conjunto de dados 2): 79 relatos de defeitos de requisitos.
+
+2.3- Desenvolvendo a análise
+Nove possíveis fontes de defeitos que se referem a parte específica de um requisito que é a causa do defeito do requisito:
+- parâmetro: 
+- variância
+- gramática
+- temporal
+- máquina de estados
+- cálculo
+- figura
+- organização
+- funcional
+
+As fontes de defeitos são mutuamente ortogonais (nenhum defeito pode ser classificado para mais de uma fonte de defeito).
+
+3- Resultados da análise
+-Qual classe de defeitos de requisitos ocorrem mais frequentemente?
+61% dos defeitos pertencem a duas classes: incorreto e incompleto.
+-Qual classe de defeitos de requisitos ocorrem menos frequentemente?
+10% dos defeitos pertencem a três classes: inconsistente, não priorizado e não verificável.
+-Qual classe de defeitos de requisitos são mais custosas de serem corrigidas?
+inconsistente (29 homens-hora por requisito), incorreto (12h) e incompleto (17h).
+-Qual classe de defeitos de requisitos são menos custosas de serem corrigidas?
+não modificável (6h) e não rastreável (4h).
+
+4- Lições aprendidas
+Incluir engenheiros de teste desde o início do projeto: o efeito da decisão é que requisitos não verificáveis deve ser detectados durante as revisões e não tardiamente durante os testes;
+Separar parâmetros em requisitos de seus valores concretos: a motivação atrás desta decisão é ajudar no gerenciamento das variações. Outro efeito é minimizar o risco de defeitos incorretos, que estão entre os mais custosos de serem corrigidos.
+Desenvolver a especificação de requisitos num processo de refinamento ao longo da estrutura funcional: 
+Aplicar ferramentas automáticas para detectar inconsistências: 9 de 31 defeitos de requisitos dentro da classe de inconsistência não foram detectados durante a fase de revisão de requisitos.
+Incluir o tipo do defeito de requisito no relatório de defeito: a disponibilidade imediata do tipo de defeito de requisito signfica que esta informação útil pode ser levada em conta durante o processo de engenharia de requisitos, por exemplo nas reuniões de revisão.
+Analisar defeitos de requisitos a fim de rastrear o processo de engenharia de requisitos: sem análise dos defeitos de requisitos, informações de defeitos de requisitos ficam esquecidas no banco de dados de relatórios de defeitos.
+
+5- Ameaças a validade
+5.1- Validade construtiva
+Expectativas do Experimentador: 
+A expectativa de um resutlado pelos avaliadores podem os levar a ver os dados de forma diferente. A análise de confiabilidade realizada sugere que a classificação não foi tendenciosa.
+Validade Semântica:
+Esta ameaça surge se as categorias analíticas de textos não correspondem ao significado que estes textos têm para os leitores particulares. Esta ameaça é minimizada pela clara definição das classes no IEEE 830. Com relação a fonte de defeitos foi dada uma explicação sobre a origem e vários pequenos exemplos foram apresentados para minimizar essa ameaça. 
+
+5.2- Validade externa
+Validade de Amostragem:
+Esta ameaça aparece se a amostra não é representativa para os defeitos de requisitos. Há o risco de que todos os defeitos não tenham sido registrados formalmente. Outro risco é que o projeto não está concluído ainda.
+Interação de Seleção e Tratamento:
+A ameaça surge se os avaliadores deste estudo não são representativos para os engenheiros da Bosch. A análise de confiabilidade deste trabalho sugere que a classificação é suficientemente independente dos avaliadores com respeito às classes IEEE.
+
+5.3- Validade conclusiva
+Significância Estatística Baixa: 
+A análise de estabilidade conduzidos com o IEEE 830 utiliza uma pequena amostra de apenas 16 relatórios. Este não pode ser ajudado, pois levou todos os dados de defeito do projeto, portanto, não poderia aumentar a seleção.
+
+6- Trabalho relacionado
+O trabalho de Ott é muito próximo a este por também descrever uma análise empírica de defeitos de requisitos.
+A diferença está no uso de fontes de defeitos. A distribuição dos defeitos de requisitos são compatíveis em ambos os trabalhos.
+O trabalho de Lauesen e Vinter descreve a análise de defeitos de requisitos em duas especificações de requisitos relativamente pequenas para um sistema de localização de fonte de ruído.
+A noção do trabalho atual de fonte de defeito é comparável a noção de tipo de defeito no trabalho de Chillarege.
+Em contradição ao trabalho atual, o trabalho de Walia considera o erro de requisitos. 
+
+7- Conclusão e trabalhos futuros
+A partir do resultado da análise podemos rever as decisões sobre o processo de engenharia de requisitos e dar recomendações para novas decisões.
+Avaliar se a classificação por fonte de requisitos pode ser universalmente aplicável de defeitos de requisitos.

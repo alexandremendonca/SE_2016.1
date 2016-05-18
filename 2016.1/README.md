@@ -31,10 +31,20 @@
 - Subject: Software Architecture
 - APR/03: [Painless Functional Specifications] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Painless_Functional_Specifications.txt) file created.
 - APR/07: [Introduction to Software Architecture and Knowledge Management] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Introduction_Software_Architecture_Knowledge_Management.txt) file created.
+- Robson Fidalgo's presentation about MDE (Model-Driven Software Engineering)
 
 ## Class #5
 - Class date: APR/08
-- Subject: Software Process
-- Robson Fidalgo's presentation about MDE (Model-Driven Software Engineering)
-- APR/13: [Software Process] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Software_Process.txt) file created.
+- Subject: Formal specification
 - ABR/29: Rodin [task 1] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/BridgeProblem.zip) and [task 2] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/SisBanco_v2.zip) completed.
+
+## Class #6
+- Class date: APR/26
+- Subject: Software Process
+- APR/13: [Software Process] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Software_Process.txt) file created.
+
+
+## Class #8
+- Class date: MAY/13
+- Subject: Requirements Engineering
+- MAY/17: [Requirements Defects over a Project Lifetime] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Requirements_Defects_over_a_Project_Lifetime.txt) file created.
