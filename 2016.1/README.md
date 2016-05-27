@@ -48,3 +48,8 @@
 - Class date: MAY/13
 - Subject: Requirements Engineering
 - MAY/17: [Requirements Defects over a Project Lifetime] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/Requirements_Defects_over_a_Project_Lifetime.txt) file created.
+
+## Class #9
+- Class date: MAY/20
+- Subject: Stitching it all together
+- MAY/26: [Quality Experience: A Grounded Theory of Successful Agile Projects Without Dedicated Testers] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/UPE_POLI_EngenhariaSoftware-week9_20160527.ppsx) file created.
