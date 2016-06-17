@@ -53,3 +53,8 @@
 - Class date: MAY/20
 - Subject: Stitching it all together
 - MAY/26: [Quality Experience: A Grounded Theory of Successful Agile Projects Without Dedicated Testers] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/UPE_POLI_EngenhariaSoftware-week9_20160527.ppsx) file created.
+
+## Class #14
+- Class date: JUN/17
+- Subject: Seminar
+- JUN/16: [Gestão de projetos ágeis num contexto de contratação do setor público] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.1/UPE_POLI_EngenhariaSoftware-Seminario_201606.ppsx) file created.
