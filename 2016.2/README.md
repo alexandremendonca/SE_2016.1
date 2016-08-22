@@ -9,4 +9,4 @@
 ## Class #1
 - Class date: AUG/19
 - Subject: Presentation of Discipline
-- AUG/23: [MindMap of God's not dead movie](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/GODISNOTDEAD.mm) file created.
+- AUG/22: [MindMap of God's not dead movie](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/GODISNOTDEAD.mm) file created.
