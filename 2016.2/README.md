@@ -13,5 +13,10 @@
 
 ## Class #2
 - Class date: AUG/26
-- Subject: Day Presentation
+- Subject: Presentations
 - AUG/28: [MindMap of The mirror has two faces movie](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/THEMIRRORHASTWOFACES.zip) file created.
+
+## Class #3
+- Class date: SEP/02
+- Subject: Presentations
+- SEP/11: [Alexandre's Class Plan](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/PlanodeAula_GestaoAgilSetorPublico.zip) file created.
