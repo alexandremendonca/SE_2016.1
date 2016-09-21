@@ -20,3 +20,8 @@
 - Class date: SEP/02
 - Subject: Presentations
 - SEP/11: [Alexandre's Class Plan](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/PlanodeAula_GestaoAgilSetorPublico.zip) file created.
+
+## Class #4
+- Class date: SEP/16
+- Subject: Presentations
+- SEP/21: [Nova Educação, Novo Mundo](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/NovaEducacaoNovoMundo.zip) file created.
