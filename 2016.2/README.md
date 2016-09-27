@@ -25,3 +25,9 @@
 - Class date: SEP/16
 - Subject: Presentations
 - SEP/21: [Nova Educação, Novo Mundo](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/NovaEducacaoNovoMundo.zip) file created.
+
+## Class #5
+- Class date: SEP/23
+- Subject: Presentations
+- SEP/26: [Problem based on the theme](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/ProblemaBaseadoTema.txt) file created.
+- SEP/27: [Summary of Systematic Review](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/RESUMOCRITICO_REVISAOSISTEMATICA.zip) file created.

@@ -1,0 +1,5 @@
+TEMA:
+Gestão de projetos ágeis num contexto de contratação do setor público.
+
+PROBLEMA:
+Como gerenciar de forma sistemática projetos ágeis executados fisicamente dentro de numa empresa privada num contexto de prestação de serviços para o setor público? 
