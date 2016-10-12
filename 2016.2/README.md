@@ -36,6 +36,7 @@
 - Class date: SEP/30
 - Subject: Presentations
 - OCT/06: [Schedule](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/MacroCronogramaMestrado.zip) file created.
+- OCT/07: [Habit](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/HABITO_Alexandre.txt) file created.
 
 ## Class #7
 - Class date: OCT/07 
