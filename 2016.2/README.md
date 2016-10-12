@@ -38,6 +38,6 @@
 - OCT/06: [Schedule](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/MacroCronogramaMestrado.zip) file created.
 
 ## Class #7
-- Class date: OCT/07
+- Class date: OCT/07 
 - Subject: Presentations
 - OCT/12: [Ishikawa](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/DiagramaEspinhadePeixe_Alexandre.zip) file created.
