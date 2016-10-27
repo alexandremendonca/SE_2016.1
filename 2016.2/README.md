@@ -47,3 +47,13 @@
 - Class date: OCT/14
 - Subject: Presentations
 - OCT/20: [Review of Taare Zameen Par movie](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/RESENHA_COMOESTRELASNATERRA.zip) file created.
+
+## Class #9
+- Class date: OCT/21
+- Subject: Presentations
+- OCT/27: [Hypothesis](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/HIPOTESE_Alexandre.txt) file created.
+
+## Class #10
+- Class date: OCT/28
+- Subject: Presentations
+- OCT/27: [Como elaborar slides e falar em público presentation] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/COMO_ELABORAR_SLIDES_E_FALAR_EM_PÚBLICO_20161028.zip) file created.

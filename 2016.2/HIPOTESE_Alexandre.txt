@@ -1,0 +1,20 @@
+TEMA:
+Gestão de projetos ágeis num contexto de contratação do setor público.
+
+PROBLEMA:
+Como gerenciar de forma sistemática projetos ágeis executados fisicamente dentro de numa empresa privada num contexto de prestação de serviços para o setor público? 
+
+
+-------------------------------------------------------------------------------------------
+
+UNIDADE DE OBSERVAÇÃO:
+Projetos ágeis executados fisicamente dentro de uma empresa privada num contexto de prestação de serviços para o setor público.
+
+VARIÁVEL INDEPENDENTE:
+Falta de gerenciamento sistemático.
+
+VARIÁVEL DEPENDENTE:
+Esses projetos falham.
+
+HIPÓTESE:
+Se projetos ágeis executados fisicamente dentro de numa empresa privada num contexto de prestação de serviços para o setor público não tem gerenciamento sistemático então esses projetos falham.
