@@ -57,3 +57,5 @@
 - Class date: OCT/28
 - Subject: Presentations
 - OCT/27: [Como elaborar slides e falar em público presentation] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/COMO_ELABORAR_SLIDES_E_FALAR_EM_PÚBLICO_20161028.zip) file created.
+- OCT/30: [Teaching Method] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/METODO_ENSINO-Alexandre.txt) file created.
+- OCT/30: [Formative and summative evaluation] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/AvaliacaoFormativaSomativa_Alexandre.txt) file created.
