@@ -59,3 +59,9 @@
 - OCT/27: [Como elaborar slides e falar em público presentation] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/COMO_ELABORAR_SLIDES_E_FALAR_EM_PÚBLICO_20161028.zip) file created.
 - OCT/30: [Teaching Method] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/METODO_ENSINO-Alexandre.txt) file created.
 - OCT/30: [Formative and summative evaluation] (https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/AvaliacaoFormativaSomativa_Alexandre.txt) file created.
+
+## Class #11
+- Class date: NOV/04
+- Subject: Presentations
+- NOV/08: [Type of Research](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/TIPO_PESQUISA_ALEXANDRE.txt) file created.
+- NOV/10: [Mind map of LUZ, TREVAS E O MÉTODO CIENTÍFICO](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/LUZ_TREVAS_E_O_METODO_CIENTIFICO.ZIP) file created.
