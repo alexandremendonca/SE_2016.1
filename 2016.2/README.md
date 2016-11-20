@@ -65,3 +65,13 @@
 - Subject: Presentations
 - NOV/08: [Type of Research](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/TIPO_PESQUISA_ALEXANDRE.txt) file created.
 - NOV/10: [Mind map of LUZ, TREVAS E O MÉTODO CIENTÍFICO](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/LUZ_TREVAS_E_O_METODO_CIENTIFICO.ZIP) file created.
+
+## Class #12
+- Class date: NOV/11
+- Subject: Presentations
+- NOV/20: [Society in Brazilian Evaluation System](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/Sociedade_Sistema_Avaliacao.zip) file created.
+
+## Class #13
+- Class date: NOV/18
+- Subject: Presentations
+- NOV/20: [Way of Teaching](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/FORMAS_ENSINO_Alexandre.zip) file created.
