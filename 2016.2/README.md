@@ -75,3 +75,8 @@
 - Class date: NOV/18
 - Subject: Presentations
 - NOV/20: [Way of Teaching](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/FORMAS_ENSINO_Alexandre.zip) file created.
+
+## Class #14
+- Class date: DEC/02
+- Subject: Presentations
+- DEC/15: [Final Report](https://github.com/alexandremendonca/UPE_Master_Degree/blob/master/2016.2/TRABALHO_CONCLUSÃO_DISCIPLINA_METODOLOGIA_CIENTÍFICA_Alexandre.pdf) file created.
