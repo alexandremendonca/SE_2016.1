@@ -1,0 +1,71 @@
+REVISÃO SISTEMÁTICA X MAPEAMENTO SISTEMÁTICO
+
+
+Referência 01
+
+Guidelines for performing Systematic Literature Reviews in Software Engineering 
+version 2.3
+EBSE Technical Report 
+09/JUL/2007
+
+Systematic mapping study (also referred to as a scoping study): 
+A broad review of primary studies in a specific topic area that aims to identify what evidence is available on the topic.
+//(Uma ampla revisão de estudos primários em uma área temática específica que visa identificar quais as evidências disponíveis sobre o tema.)
+
+Systematic literature review (also referred to as a systematic review):
+A form of secondary study that uses a well-defined methodology to identify, 
+analyse and interpret all available evidence related to a specific research question in a way that is unbiased and (to a degree) repeatable. 
+//(Uma forma de estudo secundário que utiliza uma metodologia bem definida para identificar,
+analisar e interpretar todas as evidências disponíveis relacionadas a uma questão de pesquisa específica de forma imparcial e (em certo grau) repetível.)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Referência 02
+
+Systematic Mapping Studies in Software Engineering
+Kai Petersen, Robert Feldt, Shahid Mujtaba1, Michael Mattsson
+2008
+
+A systematic review (SR) goes through existing primary reports, reviews them in-depth and describes their methodology and results. 
+Compared to literature reviews common in any research project, a SR has several benefits: 
+a well-defined methodology reduces bias, a wider range of situations and contexts can allow more general conclusions, and use of statistical meta-analysis can detect more than individual studies in isolation.
+//(Uma revisão sistemática (RS) passa por relatórios primários existentes, revê-los em profundidade e descreve sua metodologia e resultados. 
+Em comparação com análises de literatura comuns em qualquer projeto de pesquisa, uma RS tem vários benefícios: 
+uma metodologia bem definida reduz o viés, uma gama mais ampla de situações e contextos pode permitir conclusões mais gerais e 
+o uso da metanálise estatística pode detectar mais estudos individuais em isolamento.)
+
+A systematic mapping study provides a structure of the type of research reports and results that have been published by categorizing them and
+often gives a visual summary, the map, of its results. 
+It often requires less effort while providing a more coarse-grained overview. 
+Previously, systematic mapping studies in software engineering has been recommended mostly for research areas where there is a lack of relevant, 
+high-quality primary studies.
+//(Um estudo de mapeamento sistemático fornece uma estrutura do tipo de relatórios de pesquisa e resultados que tem sido publicados categorizando-os e 
+muitas vezes dá um resumo visual, o mapa, dos seus resultados. 
+Muitas vezes, requer menos esforço, proporcionando uma visão geral mais grosseira. 
+Anteriormente, estudos sistemáticos de mapeamento em engenharia de software foram recomendados principalmente para áreas de pesquisa onde há uma falta de estudos primários relevantes e 
+de alta qualidade.)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Referência 03
+
+Using Mapping Studies in Software Engineering
+David Budgen, Mark Turner, Pearl Brereton and Barbara Kitchenham
+2008
+
+The use of a Systematic Literature Review is particularly intended to provide an unbiased, objective and systematic approach 
+to answering a research question by finding all of the relevant research outcomes from ‘primary’ empirical studies, 
+and aggregating these (paying appropriate attention to quality) and is therefore regarded as forming a ‘secondary’ study.
+//(O uso de uma Revisão Sistemática de Literatura destina-se particularmente a fornecer uma abordagem imparcial, objetiva e sistemática 
+para responder a uma questão de pesquisa, encontrando todos os resultados de pesquisa relevantes de estudos empíricos "primários" 
+e agregando-os (prestando atenção adequada à qualidade) e é, portanto, considerada como constituindo um estudo "secundário".)
+
+A more ‘open’ form of SLR, intended to ‘map out’ the research that has been undertaken rather than to answer a detailed research question is 
+usually termed a Mapping Study or a Scoping Review. 
+Such a study is intended to identify ‘gaps’ in the set of primary studies, where new or better primary studies are required, 
+as well as ‘clusters’ where there may be scope for more complete SLRs to be undertaken.
+//(Uma forma mais "aberta" de RSL, destinada a "mapear" a pesquisa que foi empreendida em vez de responder a uma pergunta de pesquisa detalhada é 
+normalmente denominada Estudo de Mapeamento ou Revisão de Escopo. 
+Tal estudo destina-se a identificar "lacunas" no conjunto de estudos primários, onde são necessários estudos primários novos ou melhores, 
+bem como "clusters" onde pode haver espaço para RSLs mais completas a serem realizadas.)

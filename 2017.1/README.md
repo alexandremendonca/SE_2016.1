@@ -1,11 +1,15 @@
 # Experimental Software Engineering 2017.1 at UPE
 
-**Teacher**: [Roberta Fagundes] (http://robertafagundes.wixsite.com/raaf)
+**Teacher**: [Roberta Fagundes](http://robertafagundes.wixsite.com/raaf)
 
 **Classes**: Monday, 8h50 to 12h10.
 
 **Student**: Alexandre Mendonça
 
+
+## Class #1
+- Class date: MAR/06
+- Subject: Survey
 
 ## Class #2
 - Class date: MAR/13
